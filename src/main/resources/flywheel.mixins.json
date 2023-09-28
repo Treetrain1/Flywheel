@@ -1,9 +1,9 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "com.jozufozu.flywheel.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "client": [
+  "required" : true,
+  "minVersion" : "0.8",
+  "package" : "com.jozufozu.flywheel.mixin",
+  "compatibilityLevel" : "JAVA_17",
+  "client" : [
     "BlockEntityRenderDispatcherAccessor",
     "BlockEntityTypeMixin",
     "BufferBuilderMixin",
@@ -11,7 +11,6 @@
     "ClientLevelMixin",
     "ClientMainMixin",
     "EntityTypeMixin",
-    "FixFabulousDepthMixin",
     "FrustumMixin",
     "GlStateManagerMixin",
     "LevelRendererAccessor",
@@ -19,18 +18,17 @@
     "PausedPartialTickAccessor",
     "RenderTexturesMixin",
     "RenderTypeMixin",
+    "fix.FixFabulousDepthMixin",
+    "fix.FixNormalScalingMixin",
     "instancemanage.ChunkRebuildHooksMixin",
-    "instancemanage.ChunkRenderDispatcherAccessor",
     "instancemanage.InstanceAddMixin",
     "instancemanage.InstanceRemoveMixin",
-    "instancemanage.RenderChunkAccessor",
-    "instancemanage.RenderChunkMixin",
-    "instancemanage.SodiumChunkRenderDataMixin",
+    "instancemanage.InstanceUpdateMixin",
     "light.LightUpdateMixin",
     "light.NetworkLightUpdateMixin",
     "matrix.PoseStackMixin"
   ],
-  "injectors": {
-    "defaultRequire": 1
+  "injectors" : {
+    "defaultRequire" : 1
   }
 }
